@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 첫 번째 아이디어</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Noto+Sans+KR:wght@300;700&display=swap" rel="stylesheet">
+    <meta name="description" content="나의 첫 번째 아이디어를 기록하는 아름다운 공간입니다.">
+</head>
+<body>
+    <div class="background-blob blob-1"></div>
+    <div class="background-blob blob-2"></div>
+    <div class="background-blob blob-3"></div>
+    
+    <main class="container">
+        <h1 id="main-title" class="fade-in">내 첫 번째 아이디어</h1>
+        <div class="underline"></div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const title = document.getElementById('main-title');
+            title.style.opacity = '1';
+            title.style.transform = 'translateY(0)';
+        });
+    </script>
+</body>
+</html>
